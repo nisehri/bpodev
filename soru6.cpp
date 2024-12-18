@@ -10,7 +10,7 @@ int main(){
     if(delta<0){
         printf("denklemin koklerini bulamam \n");  //sıfırdan kucuk delta icin herhang bir cozum kumesi sunamıyoruz
     }
-    if(delta>0){  
+    if(delta>=0){  
     kok1 = (-b-sqrt(delta))/(2*a); //sqrt fonksiyonu sayesinde karekok icine alabiliyoruz bu sayede denklem dogru yaziliyor
     kok2 = (-b+sqrt(delta))/(2*a); 
     }
