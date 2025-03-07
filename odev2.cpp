@@ -9,11 +9,11 @@ int main(){
     printf("---------------------------------------- \n");
     c = sure + saniye;
     if(c>=60){
-    c = (60 - c);
+    c = (c-60);
     dakika = (dakika + 1);
     }
     if(dakika>=60){
-    dakika = (60 - dakika);
+    dakika = (dakika-60);
     saat = (saat + 1);
     }
 
